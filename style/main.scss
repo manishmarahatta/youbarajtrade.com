@@ -1,0 +1,80 @@
+$primary-color: rgb(8, 212, 144);
+
+#top-nav {
+    padding: 10px;
+    background-color: $primary-color;
+    color: #ffffff;
+    i {
+        padding-right: 10px;
+        vertical-align: bottom;
+    }
+
+    @media (max-width: 576px) {
+        display: none;
+    }
+}
+
+nav {
+    .navbar-brand {
+        color: $primary-color !important;
+    }
+}
+
+#landing-screen {
+    background: url('../img/cover.jpg') no-repeat center;
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-size: cover;
+
+    .jumbotron {
+        background-color: transparent;
+        color: #ffffff;
+        padding-top: 20%;
+    }
+}
+
+#service {
+    background-color: rgb(235, 253, 246);
+}
+
+#tag {
+    #taghead {
+        margin-top: 20vh;
+        margin-bottom: 20vh;
+    }
+    
+    .tags {
+        padding: 2px 5px;
+        border-radius: 5px;
+        background-color: $primary-color;
+        color: #ffffff;
+        margin-bottom: 10px;
+        float: left;
+        margin-right: 10px;
+        text-align: center;
+    }
+}
+
+#product-desc {
+    margin-top: 20vh;
+    h5 {
+        font-size: 0.8rem;
+    }
+    ul {
+        li {
+            font-size: 0.7rem;
+        }
+    }
+}
+
+#contact {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+footer {
+    background-color: $primary-color;
+    color: #ffffff;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
