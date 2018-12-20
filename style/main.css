@@ -4,9 +4,16 @@
   color: #ffffff;
 }
 
-#top-nav i {
-  padding-right: 10px;
-  vertical-align: bottom;
+#top-nav .title {
+  font-size: 1.5rem;
+}
+
+#top-nav .contact span:nth-child(2) {
+  padding-right: 20px;
+}
+
+#top-nav .apple {
+  border-right: 2px solid #ffffff;
 }
 
 @media (max-width: 576px) {
